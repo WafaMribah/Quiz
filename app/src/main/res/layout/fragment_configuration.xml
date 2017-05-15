@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="web.afor.innovation.quizzhub.Fragments.ConfigurationFragment">
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector"
+        android:layout_marginTop="80dp"
+        android:checked="true"
+        android:text=""
+        android:textOff=""
+        android:textOn=""/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector"
+        android:layout_marginTop="160dp"
+        android:checked="true"
+        android:text=""
+        android:textOff=""
+        android:textOn=""/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+
+</FrameLayout>

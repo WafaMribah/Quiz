@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="web.afor.innovation.quizzhub.Fragments.MultiplayerFragment"
+    android:id="@+id/mulplayerFrame">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_marginBottom="20dp"
+            android:id="@+id/clickButton1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Single Mode"
+            android:background="@color/colorPrimary"
+            />
+        <Button
+            android:id="@+id/clickButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Multiplayer "
+            />
+        <!--<Button
+            android:layout_margin="20dp"
+            android:id="@+id/pp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="playGame"
+            android:clickable="true"
+            android:background="@color/colorPrimary"
+            android:text="chooose"
+            />-->
+        <!--<Button
+            android:id="@+id/playGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPlayGameClicked"
+            android:text="playGame" />-->
+    </LinearLayout>
+
+</FrameLayout>
